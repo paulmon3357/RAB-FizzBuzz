@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAB-FizzBuzz</Text>
+    <Description>Some description for RAB-FizzBuzz</Description>
+    <Assembly>RAB-FizzBuzz.dll</Assembly>
+    <FullClassName>RAB_FizzBuzz.Command</FullClassName>
+    <ClientId>0e14fa6f-64c0-4afb-ac04-f84249626bbd</ClientId>
+    <VendorId>Mon And Associates Inc.</VendorId>
+    <VendorDescription>Paul Mon @ Mon And Associates Inc.</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAB-FizzBuzz</Name>
+    <Assembly>RAB-FizzBuzz.dll</Assembly>
+    <FullClassName>RAB_FizzBuzz.App</FullClassName>
+    <ClientId>24755c9c-0858-4c1c-84fc-d79aede8fa83</ClientId>
+    <VendorId>Mon And Associates Inc.</VendorId>
+    <VendorDescription>Paul Mon @ Mon And Associates Inc.</VendorDescription>
+  </AddIn>
+</RevitAddIns>
